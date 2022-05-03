@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+:root {
+  font-family: "Playfair Display", serif;
+}
+
+.Form {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.image {
+  max-width: 100vh;
+  max-height: 100vh;
+}
+.noteImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  width: 100vh;
+}
+.explore {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 5vh;
+  font-family: "Playfair Display", serif;
+}
+.paintings {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px var(--main);
+  background-color: var(--sub);
+  padding: 15px 25px 25px 25px;
+  border: solid 2px var(--main);
+}
+
+.paintingsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px var(--main);
+  margin-bottom: 10vh;
+}
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Playfair Display", serif;
+  padding: 10px;
+  padding: 10px 20px;
+}
+.search-form > input {
+  font-size: smaller;
+}
+.search-bar {
+  width: 30%;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 60px 60px 60px 60px;
+  display: flex;
+  text-align: center;
+}
+
+.search-button:hover {
+  background-color: white;
+  color: black;
+}
+.createNoteBtn {
+  background-color: black;
+  color: white;
+  margin-top: 2vh;
+  border-radius: 60px 60px 60px 60px;
+}
+
+.h4 {
+  border: 2px solid black;
+}
+h3 {
+  margin-top: 10vh;
+}
+
+.refresh {
+  margin: 5vh;
+  border-radius: 60px 60px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 50%;
+}
+.refresh:hover {
+  background-color: white;
+  color: black;
+}
+.savedList,
+.cancelChoiceBtn,
+.createNote {
+  border-radius: 60px 60px;
+  background-color: black;
+  color: white;
+  margin-bottom: 5vh;
+  margin: 1vw;
+  margin-top: -3vh;
+}
+.cancelChoiceBtn,
+.createNote {
+  background-color: grey;
+}
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+}
+.search-button {
+  margin: 5vh;
+  border-radius: 60px 60px;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-family: "Playfair Display", serif;
+  /*font-family: 'Spicy Rice', cursive;*/
+  border: 1px solid black;
+}
+
+#confirm {
+  display: none;
+  background-color: #514e61;
+  color: #ffffff;
+  border: 1px solid #aaa;
+  position: fixed;
+  width: 250px;
+  left: 50%;
+  margin-left: -100px;
+  padding: 6px 8px 8px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.list {
+  font-family: "Playfair Display", serif;
+}
+
+#confirm button {
+  background-color: #48e5da;
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  padding: 5px;
+  text-align: center;
+  width: 80px;
+  cursor: pointer;
+}
+#confirm .message {
+  text-align: left;
+}
+
+.form {
+  font-family: "Playfair Display", serif;
+}
+/* mobile */
+@media (max-width: 414px) {
+  .image {
+    max-width: 70vh;
+    max-height: 100vh;
+  }
+}

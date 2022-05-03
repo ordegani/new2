@@ -1,0 +1,41 @@
+.navbar-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  list-style: none;
+  background-color: black;
+}
+
+.navbar-brand {
+  color: rgb(187, 185, 185);
+  background-color: black;
+}
+.navbar-brand:hover {
+  color: rgb(187, 185, 185);
+  background-color: black;
+}
+.nav-link {
+  color: white;
+}
+.nav-link:focus {
+  color: white;
+}
+.nav-link:hover {
+  background-color: white;
+  color: black;
+}
+/* mobile    */
+@media (max-width: 414px) {
+  .navbar-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    font-size: medium;
+  }
+  .navbar-items {
+    color: black;
+  }
+}
